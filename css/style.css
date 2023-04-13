@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inconsolata", sans-serif;
+}
+body{
+    background-color: rgb(218, 203, 203);
+}
+.nav{
+    width: 100%;
+    background-color: black;
+    padding: 15px;
+  
+}
+.nav li{
+     display: inline-block;
+     width: 24%;
+     text-align: center;
+    
+     
+
+}
+.nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.head{
+    background-position: center;
+    background-size: cover;
+
+    background-image: url('../asset/coffeehouse.jpg');
+    min-height: 200%;
+  }  
+.head h1{
+    font-size: 100px;
+    color: white;
+    position: relative;
+    margin: auto;
+    padding: 150px 558px;
+}
+.head-inner{
+    width: 100%;
+    
+    padding: 15px;
+}
+.head-inner span{
+display: inline-block;
+
+}
+.head-time{
+color: white;
+background-color: black;
+padding: 10px;
+font-weight: "Inconsolata", sans-serif;
+}
+.head-adr{
+    position: relative;
+    left:  75%;
+    font-size: 20px;
+    color: white;
+}
+.container{
+    width: 50%;
+   margin: 0 auto;
+}
+.about{
+    margin: 10% 0;
+}
+.about div{
+    text-align: center;
+}
+.about div span{
+    
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.part-1{
+    font-size: 20px;
+    display: block;
+    font-style: oblique;
+    margin: 15px 0;
+    word-spacing: 0.5em;
+    line-height: 2em;
+    
+}
+.part-2{
+    font-size: 18px;
+    display: block;
+    font-style: oblique;
+    margin: 15px 0;
+    word-spacing: 0.5em;
+    line-height: 2em;
+    
+}
+.part-3{
+    font-size: 18px;
+    display: block;
+    background-color: rgb(221, 218, 218);
+    font-style: italic;
+    margin: 15px 0;
+    padding: 10px 20px;
+    word-spacing: 0.5em;
+    line-height: 2em;
+    
+}
+.part-img-4{
+    display: block;
+
+}
+.part-5 {
+    padding: 20px;
+}
+.one{
+    font-size: 18px;
+    font-weight: bolder;
+    box-sizing: inherit;
+    word-spacing: 0.5em;
+}
+.two{
+    font-size: 18px;
+    
+    box-sizing: inherit;
+    word-spacing: 0.5em;
+}
+.part-6 {
+    padding: 20px;
+}
+.menu div{
+    text-align: center;
+}
+.menu div span{
+    font-size: 1.5em;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    word-spacing: 0.5em;
+}
+.eat-menu{
+    margin-top: 10%;
+    background-color: #f1eee9;
+    height: 50px;
+
+}
+.eat-menu div{
+    text-align: center;
+    padding: 15px 0;
+}
+.eat-menu div span{
+    font-size: 2em;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+.table{
+    
+    box-sizing: border-box;
+    box-shadow: 2px gray;
+    background-color: rgb(238, 239, 239);
+    padding: 0 10px;
+    height: 50%;
+}
+.table div{
+    padding: 30px 0;
+}
+.table div label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.table div span{
+    color: gray;
+    font-size: 1.5em;
+    font-style: italic;
+}
+.img-2{
+    margin: 35px 0;
+}
+.find{
+    margin-top: 60px;
+}
+.find label{
+    font-size: 1.5em;
+    word-spacing: 0.5em;
+    color: rgb(109, 107, 107);
+}
+.img-3{
+    padding: 30px 0;
+}
+.find-us{
+    padding: 10px 0;
+}
+.find-us p{
+    font-size: 1.5em;
+    word-spacing: 0.7em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+
+}
+.find-us p span{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.reverse{
+    font-size: 1.2em;
+    word-spacing: 0.7em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    padding: 10px 0;
+}
+.con input[type=text] {
+    width: 100%; /* Full width */
+    font-size: 20px;
+    padding: 30px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 20px; /* Add a top margin */
+    margin-bottom: 20px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+.con input[type=submit] {
+    background-color: #0a0a0a;
+    color: white;
+    font-size: 20px;
+    padding: 22px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #8c8f8c;
+  }
+.con{
+    border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  }
+  .footer{
+    margin-top: 10px;
+    background-color: rgb(161, 159, 159);
+    height: 50px;
+    padding: 50px 0;
+  }
+  .footer div{
+    text-align: center;
+  }
+.footer div span{
+    font-size: 20px;
+    font-weight: bold;
+}
